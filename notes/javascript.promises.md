@@ -2,13 +2,13 @@
 id: 9hd0s7mwp6uwrp05db74ftn
 title: Promises
 desc: ''
-updated: 1660936570619
+updated: 1661547189807
 created: 1660925638869
 ---
 
 ## Callback
 
-Es un llamado a una funcion que permite manejar diferentes respuestas y errores
+Es simplemente una **funcion que se llama como argumento** y va a ser ejecutada posteriormente. Estos permite manejar diferentes respuestas y errores
 
 Era muy comun utilizarla antes de que se crearan las promesas pero ahora se considera una mala practica ya que facilmente puede provocar un callback hell
 

@@ -1,9 +1,9 @@
 ---
-id: yq9bqu4a1ggk7tr3qorrq0p
-title: Usability Testing
+id: o2kv1r6g17324mrbunbnh02
+title: Usability
 desc: ''
-updated: 1660950303500
-created: 1659616297444
+updated: 1661872374329
+created: 1661872360002
 ---
 
 This page will contain al the concepts learnt while watching the [**Fast-start Usability Testing and UX Research – Begin Today!**](https://www.udemy.com/course/master-usability-testing-and-ux-research/) *Udemy course*
@@ -96,3 +96,5 @@ If you want to learn more about this topic checkout this other resources
 * [UX Bootcamp by Jeff Sauro](https://measuringu.com/events/ux-bootcamp-2017/)
 * [Don’t Make me Think by Steve Krug](http://amzn.to/2xRXCAj)
 * [Rocket Surgery Made Easy by Steve Krug](http://amzn.to/2yCm8rn)
+
+
