@@ -2,7 +2,7 @@
 id: tn8jm1lq6a5u1ffm0kry2vf
 title: Classes
 desc: ''
-updated: 1660849937313
+updated: 1662727702958
 created: 1660836951231
 ---
 
@@ -14,7 +14,7 @@ Son definidas usando la palabra reservada **class** usualmente se usa *`Upper Ca
 
 Para referirse a las propiedades y metodos dentro de la clase se usa el **this**
 
-```cmd
+```javascript
 
 class NombreClase {
     propiedad1 = '';
@@ -48,7 +48,7 @@ Sirven para definir propiedades y metodos que **pueden ser usados sin necesidad 
 
 Sirve para extender una clase padre con metodos y propiedades comunes que serviran para crear varias clases hijos
 
-```cmd
+```javascript
 class Person {
 
     static _count = 0;
@@ -86,7 +86,7 @@ Son **propiedades protegidas, no pueden ser accedidas fuera de la clase** a meno
 
 Actualmente la implementacion de propiedades privadas de clases de javascript esta en proceso, por lo que este metodo `no es aceptado por todos los navegadores` pero para convertir una propiedad en privada basta con usar # antes del nombre de la misma
 
-```cmd
+```javascript
 class ClassName {
     #property = '';
 }
@@ -98,7 +98,7 @@ Para saber en que [navegadores actualmente esta implementada la funcionalidad de
 
 Son `instancias unicas de una clase`, para esto se utiliza una propiedad estatica que tiene constancia de la instancia creada y sobreescribe cualquier otro llamado para crear una instancia
 
-```cmd
+```javascript
 class Singleton {
     static instancia;
     name = '';
@@ -118,7 +118,7 @@ class Singleton {
 
 Javascript no permite la sobrecarga del metodo constructor, pero esto se puede realizar utilizando metodos estaticos y que al invocarlos estos creen la instancia
 
-```cmd
+```javascript
 class Person {
     static porObjeto({ name, lastname }){
         return new Person( name, lastname );

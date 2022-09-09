@@ -2,7 +2,7 @@
 id: pci4rtrqkt6341a5sd8eez3
 title: SOLID-CleanCode
 desc: ''
-updated: 1660950191257
+updated: 1662728801232
 created: 1660332918216
 ---
 
@@ -74,11 +74,15 @@ Cada funcion realiza exactamente lo que indica su nombre
 * Para recordar sobre funciones: 
     * Se le llama parametros de la funcion a los atributos que recibe una funcion *(en la definicion de la misma)*
 
-    >function findBook(`bookName`: string)
+    ```javascript
+    function findBook(bookName: string)
+    ```
 
     * Se le llama argumentos de la funcion a los atributos que enviamos *(durante un llamado de la misma)*
 
-    >findBook(`'El principito'`)
+    ```javascript
+    findBook('El principito')
+    ```
 
 * Se recomienda limitar los parametros a 3, y ordenarlos de forma alfabetica
 
@@ -89,7 +93,11 @@ Cada funcion realiza exactamente lo que indica su nombre
 * Evitar el uso del else
 * Priorizar el uso de la condicional ternaria
 
->Ejemplo de condicional terciaria: return ( isRetired ) ? 3000 : 4000;
+>Ejemplo de condicional terciaria: 
+
+```javascript
+return ( isRetired ) ? 3000 : 4000;
+```
 
 #### Nombres de Clases
 
@@ -97,7 +105,7 @@ Cada funcion realiza exactamente lo que indica su nombre
 
 ### Principio DRY
 
-**`Dont Repeat Yourself`**
+**Dont Repeat Yourself**
 
 * Evita duplicidad
 * Simplifica pruebas
@@ -127,7 +135,7 @@ Se deben conservar las recomendaciones del lenguaje usado pero en general se pue
 
 ### Clean Code - Comentarios
 
-`Los comentarios deberian ser la excepcion no la regla`
+**Los comentarios deberian ser la excepcion no la regla**
 
 Nuestro codigo deberia ser suficientemente auto explicativo
 
@@ -135,7 +143,7 @@ Nuestro codigo deberia ser suficientemente auto explicativo
 
 ### Clean Code - Uniformidad
 
-`Problemas similares deberian tener soluciones similares`
+**Problemas similares deberian tener soluciones similares**
 
 En estructura del codigo, en los nombres de variables y directorios, respetar la identacion
 
