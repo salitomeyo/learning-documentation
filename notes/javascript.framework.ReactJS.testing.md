@@ -2,7 +2,7 @@
 id: 0uijwgomah05m44assl0qce
 title: testing
 desc: ''
-updated: 1662728940500
+updated: 1662762128348
 created: 1662396062650
 ---
 
@@ -114,4 +114,6 @@ Debemos importar algunas dependencias para poder trabajar correctamente con esta
 * @babel/preset-react
 * babel-jest
 * jest-environment-jsdom
+
+Mas informacion acerca de como configurar el entorno de pruebas de jest se puede encontrar en este gist [configuracion de jest con react](https://gist.github.com/Klerith/ca7e57fae3c9ab92ad08baadc6c26177)
 
