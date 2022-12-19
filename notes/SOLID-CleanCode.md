@@ -2,7 +2,7 @@
 id: pci4rtrqkt6341a5sd8eez3
 title: SOLID-CleanCode
 desc: ''
-updated: 1662728801232
+updated: 1669133329878
 created: 1660332918216
 ---
 
@@ -12,7 +12,7 @@ This page will contain al the concepts learnt while watching the [**Principios S
 
 ### Deuda tecnica
 
-Significa falta de calidad em el codigo, lo que repercutira en costos futuros y requerira invertir tiempo extra en:
+Significa falta de calidad en el codigo, lo que repercutira en costos futuros y requerira invertir tiempo extra en:
 
 - Mantenimiento
 - Refactorizar codigo
@@ -101,7 +101,7 @@ return ( isRetired ) ? 3000 : 4000;
 
 #### Nombres de Clases
 
-- Nombres de clases deben ser sustantivos o frases de sustantivos *(Pero no deben ser muy genericos ni muy espeificos)*
+- Nombres de clases deben ser sustantivos o frases de sustantivos *(Pero no deben ser muy genericos ni muy especificos)*
 
 ### Principio DRY
 
@@ -115,7 +115,7 @@ return ( isRetired ) ? 3000 : 4000;
 
 Deben seguir el **Principio de responsabilidad unica**
 
-Hay que tratar de evitar el uso de los extends (herencia), ya que el extends rompe el principio de resopnsabilidad unica
+Hay que tratar de evitar el uso de los extends (herencia), ya que el extends rompe el principio de responsabilidad unica
 
 Se debe **priorizar el uso de la composicion** sobre el uso de la herencia
 
