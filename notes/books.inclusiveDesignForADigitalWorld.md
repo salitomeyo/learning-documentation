@@ -2,7 +2,7 @@
 id: oqgwwcjvxii6cicxht5da8j
 title: inclusiveDesignForADigitalWorld
 desc: ''
-updated: 1663679918812
+updated: 1683383957706
 created: 1663589756577
 ---
 
