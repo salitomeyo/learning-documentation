@@ -2,7 +2,7 @@
 id: qjcwxv43kn663q3uk1axvti
 title: Chapter 1
 desc: ''
-updated: 1683423946653
+updated: 1684288665317
 created: 1683387365814
 ---
 
@@ -223,8 +223,52 @@ What is the role of design in translating coded functions into an understandable
 
 ### Implementing models
 
-System model or implementation model is the representation of how an application actually works, it describes how an application is implemented in code
+System model or implementation model **is the representation of how an application actually works, it describes how an application is implemented in code**
 
+Its easier to design software that reflects its implementation model but providing a button for every function, a field for every input... etc, although adequate from a engineering infrastructure stand point does little to provide coherent mechanisms for a user to achive his goals 
+
+### Mental models
+
+**Are cognitive shorthands people use for explaining complex mechanism without knowing all the details**. This explanation covers the interactions but doesn't necessarily reflect the actual inner mechanics
+
+The discrepancies between the implementation and mental model of software applications is particularlyt stark. The implementation is so complex is nearly impossible for the user to see the connections between his actions and the application reactions
+
+### Striving towards perfection: represented models
+
+Software has a behavioral face, a representation which is not necessarily an accurate description of what going on inside the computer, and this is what we aim for, represent the actions while hiding unsavory facts of how the software is really getting the job done
+
+The represented model is how the designer chooses to represent applications functioning to the user, `the closer the represented model comes to the user’s mental model, the easier he will find the application to use and understand` 
+
+And as its counterpart having a represented model that follows the implementation model too closely significantly reduces the user's ability to understand, learn and use the application
+
+![](assets/images/represented-model.png)
+
+Creating software's represented model that closely follows users mental models eliminates needless complexity from the user interface and makes it evident for the user how achieve his goals and meet his needs. **A design process translates the implementation of features into intuitive and desirable product behaviors**
+
+## An overview of goal-directed design
+
+Most traditional methods dont provide a means of translating research results into design solutions but we aim to address this using Goal-Directed methods
+
+### Briding the gap
+
+#### Design as product definition
+
+Design whe properly deployed identifies user requirements and defines a detailed plan for the behavior and appearance of products. `Design provides true product definition, based on user goals, business needs and technology constraints`
+
+#### Designers as researchers
+
+One of the current problems with development process is that roles are over specialized, this model misses a systematic mean of translating and synthesizing the research into design solutions
+
+We can address this teaching designers to be researchers, this also has a compelling reason, it gives designers empathy. `Direct and extend exposure to users entails designers in the users' world and gets them thinking about users long before proposing solutions`
+
+#### Between research and blueprint: Models, requirements and frameworks
+
+Designers have been historically out of the loop and relied on third-person accounts of user behavior and desires, this method was created as a systematic process to bridge the gap between research and design
+
+The goal-directed design process consists of 6 phases
+![](assets/images/goal-directed-design-process.png)
+
+And it combines techniques of ethnography, stakeholder interviews, market research, detailed user models, scenario-based design, and a core set of interaction principles and patterns
 
 
 
