@@ -1,6 +1,6 @@
 ---
 id: 9tko3xerl3pw3lhxh9wck6u
-title: Chapter 1 - In the Beginning, There Is the Designer
+title: 'Chapter 1 - In the Beginning, There Is the Designer'
 desc: ''
 updated: 1692449743566
 created: 1692448253369

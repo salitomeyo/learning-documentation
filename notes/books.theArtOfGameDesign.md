@@ -1,6 +1,6 @@
 ---
 id: nspvailu2c7ivmqmcc4lqxh
-title: the Art Of Game Design, A book of lenses
+title: 'the Art Of Game Design, A book of lenses'
 desc: ''
 updated: 1692448398743
 created: 1692448244813

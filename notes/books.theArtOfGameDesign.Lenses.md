@@ -2,7 +2,7 @@
 id: 62totdsjs0lrqae4hsb0xk4
 title: Lenses
 desc: ''
-updated: 1692967916326
+updated: 1693493379094
 created: 1692561043467
 ---
 
@@ -140,8 +140,42 @@ To use this lens, think of your game as the solution to a problem. Ask yourself 
 
 ---
 
+## Lens #13 - The Lens of the Eight Filters
 
+To use this lens, you must consider the many constraints your design must satisfy. **You can only call your design finished when it can pass through all eight filters without requiring a change**. Ask yourself the eight key questions:
 
+* Does this game feel right?
+* Will the intended audience like this game enough?
+* Is this a well-designed game?
+* Is this game novel enough?
+* Will this game sell?
+* Is it technically possible to build this game?
+* Does this game meet our social and community goals?
+* Do the playtesters enjoy this game enough?
+
+In some situations, there may be still more filters; for example, an educational game will also have to answer questions like "Does this game teach what it is supposed to?" If your design requires more filters, don't neglect them.
+
+---
+
+## Lens # 14: The Lens of Risk Mitigation
+
+To use this lens, stop thinking positively, and start seriously considering the things that could go horribly wrong with your game. Ask yourself these questions:
+
+* What could keep this game from being great?
+* How can we stop that from happening?
+
+---
+
+## Lens # 15: The Lens of the Toy
+
+To use this lens,<**stop thinking about whether your game is fun to play, and start thinking about whether it is fun to play with**. Ask yourself these questions:
+
+* If my game had no goal, would it be fun at all? If not, how can I change that?
+* When people see my game, do they want to start interacting with it, evenbefore they know what to do? If not, how can I change that?
+
+There are two ways to use the Lens of the Toy. One way is on an existing game, to figure out how to make it more approachable, and more fun to manipulate. But the second way, is to use it to invent and create new toys before you even have any idea what games will be played with them.
+
+---
 
 
 
