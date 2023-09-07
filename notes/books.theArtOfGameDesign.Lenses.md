@@ -2,7 +2,7 @@
 id: 62totdsjs0lrqae4hsb0xk4
 title: Lenses
 desc: ''
-updated: 1693493379094
+updated: 1694057737919
 created: 1692561043467
 ---
 
@@ -174,6 +174,31 @@ To use this lens,<**stop thinking about whether your game is fun to play, and st
 * When people see my game, do they want to start interacting with it, evenbefore they know what to do? If not, how can I change that?
 
 There are two ways to use the Lens of the Toy. One way is on an existing game, to figure out how to make it more approachable, and more fun to manipulate. But the second way, is to use it to invent and create new toys before you even have any idea what games will be played with them.
+
+---
+
+## Lens #16: The Lens of the Player
+
+To use this lens, stop thinking about your game, and start thinking about your player. Ask yourself these questions about the people who will play your game:
+
+* In general, what do they like?
+* What don't they like? Why?
+* What do they expect to see in a game?
+* If I were in their place, what would I want to see in a game?
+* What would they like or dislike about my game in particular?
+
+A good game designer should always be thinking and advocating for the player. Skilled designers hold The Player and Holographic Design Lenses in the same hand, thinking about the player, the experience of the game, and the mechanics of the game all at the same time. **Thinking about the player is useful, but even more useful is watching them play your game**. The more you observe them playing, the more easily you'll be able to predict what they are going to enjoy.
+
+---
+
+## Lens #17: The Lens of Pleasure
+
+To use this lens, think about the kinds of pleasure your game does and does not provide. Ask yourself these questions:
+
+* What pleasures does your game give to players? Can these be improved?
+* What pleasures are missing from your experience? Why? Can they be added?
+
+Ultimately, the job of a game is to give pleasure. By going through lists of known pleasures, and considering how well your game delivers each one, you may be inspired to make changes to your game that will increase your players enjoyment. Always be on the lookout, though, for unique, unclassified pleasures not found in most games — for one of these might be what gives your game the unique quality it needs.
 
 ---
 

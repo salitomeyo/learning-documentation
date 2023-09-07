@@ -2,7 +2,7 @@
 id: couv15tdmw234sstwarvpru
 title: Chapter 5 - The Elements Support a Theme
 desc: ''
-updated: 1692882378887
+updated: 1693535487259
 created: 1692633850689
 ---
 
@@ -42,22 +42,21 @@ to create this feeling of being a pirate than through an immersive, interactive 
 
 For step two use every means possible to reinforce that theme. Some examples include:
 
-* Cave shape: We created a new, four-screen Cave shape.
-* Motion Platform: Feeling of a rocking, swaying boat. We custom built a platform using pneumatics.
-* Interface: The ship is steered with a ship's wheel, and we had real metal cannons that players would use to aim and fire.
-* Visuals: "hyper-real" look. We used high-end
+* **Cave shape**: We created a new, four-screen Cave shape.
+* **Motion Platform**: Feeling of a rocking, swaying boat. We custom built a platform using pneumatics.
+* **Interface**: The ship is steered with a ship's wheel, and we had real metal cannons that players would use to aim and fire.
+* **Visuals**: "hyper-real" look. We used high-end
 graphics hardware and rich textures and models.
-* Music: Use the music from the ride.
-* Audio: Our sound designers created a custom ten-speaker sound system that could play sounds from all directions, making you feel like you were out at sea.
-* A Feeling of Freedom: Piracy is all about freedom. Our gameplay mechanics were designed to let players sail wherever they chose, but at the same time ensure the players have an exciting time. Details of how this was accomplished will be discussed in detail in Chapter 16.
-* Dead Men Tell No Tales: In the fantasy, you don't die, or if you do, it is in an incredibly
-dramatic way, and you do not return. We were trying very hard to maintain a dramatic interest curve (explained in Chapter 14). If the players could suddenly die in the middle of the game, it would spoil that. Our solution was to make players invulnerable throughout the majority of the game, but if they took too many hits over the course of the experience, their ship would sink dramatically at the end of the final battle. This broke with videogame tradition, but theme is more
-important than tradition.
-* Treasure: We came up with a special technique that made flat, handpainted treasures seem to be solid, dimensional objects that sat prominently on the ship's deck.
-* Lighting: We needed to light the room the players stood in. How could we theme that? We used special filters on the light that made it look like it was light reflected off of water.
-* A Place for my Stuff: People who step up to the controls need a place to put their bags, purses, etc. We created bags out of fishing nets that really look like they belong on a boat.
-* Air Conditioning: The vents were placed at the front of the ship, blowing back, so players feel a breeze as they sail their ship.
-* The Eyes of Bluebeard: One thing we never figured out how to theme was the 3D glasses. In the end, we gave up, and let that detail go unthemed. To our surprise, the cast member who was about to lead us on board proclaimed "Before ye board, ye must wear the Eyes of Bluebeard.” This was surprising, because it was not in the "official script" given to cast members. The ride attendants succeeded where we had failed. It was a simple and effective way to theme a detail that escaped us, and a powerful illustration that when you have a strong unifying theme, it makes it easier for everyone on the team to make useful contributions.
+* **Music**: Use the music from the ride.
+* **Audio**: Our sound designers created a custom ten-speaker sound system that could play sounds from all directions, making you feel like you were out at sea.
+* **A Feeling of Freedom**: Piracy is all about freedom. Our gameplay mechanics were designed to let players sail wherever they chose, but at the same time ensure the players have an exciting time. Details of how this was accomplished will be discussed in detail in Chapter 16.
+* **Dead Men Tell No Tales**: In the fantasy, you don't die, or if you do, it is in an incredibly dramatic way, and you do not return. We were trying very hard to maintain a dramatic interest curve (explained in Chapter 14). If the players could suddenly die in the middle of the game, it would spoil that. Our solution make players invulnerable throughout the majority of the game, but if they took too many hits their ship would sink dramatically at the end of the final battle. This broke with videogame tradition. But
+> theme is more important than tradition.
+* **Treasure**: We came up with a special technique that made flat, handpainted treasures seem to be solid, dimensional objects that sat prominently on the ship's deck.
+* **Lighting**: We needed to light the room the players stood in. How could we theme that? We used special filters on the light that made it look like it was light reflected off of water.
+* **A Place for my Stuff**: People who step up to the controls need a place to put their bags, purses, etc. We created bags out of fishing nets that really look like they belong on a boat.
+* **Air Conditioning**: The vents were placed at the front of the ship, blowing back, so players feel a breeze as they sail their ship.
+* **The Eyes of Bluebeard**: We never figured out how to theme was the 3D glasses. We gave up, and let that detail go unthemed. To our surprise, the cast member who was about to lead us on board proclaimed "Before ye board, ye must wear the Eyes of Bluebeard". The ride attendants succeeded where we had failed. It was a simple and effective way to theme a detail that escaped us, and a powerful illustration that when you have a strong unifying theme, it makes it easier for everyone on the team to make useful contributions.
 
 This is not a complete list. Everything we did and every decision we made was focused on whether it would reinforce the theme and deliver the essential experience we wanted to get across. You might argue that without a big budget, you can't afford
 to do fancy theming. But **many theming details are really quite inexpensive. They can be a line of text, or a color choice, or a sound effect**. And theming is fun — once you get in the habit of trying to make as many things as possible fit your theme, it's hard to stop. But why would you stop? And this gives us Lens #9.
@@ -92,9 +91,9 @@ Many did not believe this movie could possibly be successful: audiences would kn
 
 **Truth-based themes can sometimes be hard to spot. Part of the power of these deep truths is that they are hidden**. Often, a designer might not even consciously know they have chosen a particular theme or be able to express it verbally.
 
-Explore your feelings about these things to the point that you can express your theme concretely.  It will make it much easier for you to decide what should and shouldn't go into your game, and make it easier for you to explain the rationale of these decisions to others on your team.
+**Explore your feelings about these things to the point that you can express your theme concretely.** It will make it much easier for you to decide what should and shouldn't go into your game, and make it easier for you to explain the rationale of these decisions to others on your team.
 
-Another example of a truth-based theme is the Hercules story. The VR Studio team was asked to create a game based upon Disney's version of the ancient Hercules myth. When a story stays alive, told and retold, for thousands of years like this story has, it is a pretty good clue that there is a truth-based theme hiding inside it. 
+Another example of a truth-based theme is the Hercules story. When a story stays alive, told and retold, for thousands of years like Hercules has, it is a pretty good clue that there is a truth-based theme hiding inside it. 
 
 Interestingly, there was not one canonical telling, even in ancient times. Sometimes Hercules had ten labors, sometimes twelve, and sometimes twenty. But in every story, Hercules is a man so virtuous that he defeats death. And this is a truth so deep that it is at the heart of many religions: If you are virtuous enough, you can defeat death. 
 
