@@ -2,7 +2,7 @@
 id: z5d1hqgcgoa6084d16gxsow
 title: Chapter 8 - The Game is Made for a Player
 desc: ''
-updated: 1694057720605
+updated: 1694525007513
 created: 1693531311740
 ---
 
@@ -135,6 +135,8 @@ Some psychographics are tied to concrete activities. But other kinds of psychogr
 8. **Submission**: This is the pleasure of **entering the magic circle — of leaving the real world behind, and entering into a new, more enjoyable, set of rules and meaning**. In some games, you are forced to suspend your disbelief — in others, the game itself seems to suspend your disbelief effortlessly, and your mind easily enters and stays in the game world. It is these games that make submission truly a pleasure.
 
 Game designer Richard Bartle, has observed that players fall into four main groups in terms of their game pleasure preferences. They have the suits of playing cards as a convenient mnemonic, try to understand why each card suit was chosen to represent each category.
+
+![](/assets/images/bartle-graph.png){max-width: 600px}
 
 ### Bartle's Taxonomy of Player Types
 
