@@ -2,7 +2,7 @@
 id: 2fnttcbdcamskh8etjuatax
 title: Chapter2
 desc: ''
-updated: 1663712567066
+updated: 1695993411482
 created: 1663710319324
 ---
 
@@ -85,7 +85,6 @@ Beforeusign a header we have to ask "what is most important?" and match it with 
 ## Links
 
 They should have enough contrast and clearly tell the user where they are being send
-
 
 
 

@@ -2,7 +2,7 @@
 id: qjcwxv43kn663q3uk1axvti
 title: Chapter 1
 desc: ''
-updated: 1683423946653
+updated: 1686083844588
 created: 1683387365814
 ---
 
@@ -20,15 +20,13 @@ Is the conscious and intuitive effort to impose meaningful order
 
 Emcompasses activities such as:
 
-* Understanding the desires, needs, motivations and context of the peiople using products
-* Understanding businesss, technical, and domain opportunities, requirements and constraints
+* Understanding the desires, needs, motivations and context of the people using products
+* Understanding business, technical, and domain opportunities, requirements and constraints
 * Using this knowledge as a fundation for plans to create products whose form, content and behavior are useful, usable and desirable as well as economically visable and technically feasible
 
 ## Consequences of poor product behavior
 
-Many companies have begun focusing on serving people's needs and spending time and money to support the design process, but there are many more companies that fail to do so. "As long as businesses continue to focus solely on technology and market data
-while shortchanging design, they will continue to create the kind of products we’ve all
-grown to despise"
+Many companies have begun focusing on serving people's needs and spending time and money to support the design process, but there are many more companies that fail to do so. "As long as businesses continue to focus solely on technology and market data while shortchanging design, they will continue to create the kind of products we’ve all grown to despise"
 
 ### Digital products are rude
 
@@ -49,8 +47,8 @@ They regularly assume that people are technology literate.
 
 They dont listen, require extra steps and have dangerous commands on sight
 
-* Software require us to step out of the main flow to peforma actions that shouldn't require separate interfaces and extra navigation
-* Application have dangeous commands presented right up front, where the user can accidentaly trigger them
+* Software require us to step out of the main flow to peform actions that shouldn't require separate interfaces and extra navigation
+* Application have dangerous commands presented right up front, where the user can accidentaly trigger them
 * The appearance of software can be complex and confusing, making navigation and comprehension unnecesarily difficult
 
 ### Digital products require humans to do the heavy lifting
@@ -79,7 +77,7 @@ Why is the technological industry so inept at designing the interactive parts of
 
 Digital products are being pulled by two opposing forces marketers and developers.
 
-* **Marketers**: Are adept at understanding and quantifying marketplace opportunities, but their input into the product design process is often limited to lists of requirements. This requirements usually have noting to do with what users actually need or desire and more to do with chasing competiting and what people say they will buy
+* **Marketers**: Are adept at understanding and quantifying marketplace opportunities, but their input into the product design process is often limited to lists of requirements. This requirements usually have nothing to do with what users actually need or desire and more to do with chasing competiting and what people say they will buy
 
 **Users are usually incapable of articulating their needs**, and focus on low-level tasks; and `what they think they will buy doesn't tell us much about how or if they will actually use it`
 
@@ -87,14 +85,14 @@ Reducing an interactive product to a list of features and adding easy to use doe
 
 * **Developers**: Often have no shortage of input into the product's final form an behavior. Good deveopers are focused on solving challenging technical problems, following good engineering practices and meeting deadlines. 
 
-They often give incomplete, myopic, confusing and even contradictoery intructions that force decisions about the user experience with little time and knowledge about how user interact with the product
+They often give incomplete, myopic, confusing and even contradictory intructions that force decisions about the user experience with little time and knowledge about how user interact with the product
 
 `The people responsible for creating products rarely take into account the users goals needs and motivations`. And they tend to be highly reactive to market trends and technical constraints. As a result we are left with products that lack coherent user experience
 
 #### Results of poor product vision
 
 * Digital products that irritate rather than please 
-* Reduce productitivy
+* Reduce productivity
 * Failure to meet user needs
 
 Most products are stuck in the first steps of design where design either plays no real role or becomes a surface level patch **lipstick on the pig**
@@ -115,7 +113,7 @@ However we can change this, is possible to understand the user and create excell
 
 The product development has a conflict of interest, the developers who build our products are also the ones to design them. They are often face with the choice between ease of coding vs ease of use
 
-We need to make sure `the people designing the products are not the same people building it`, even with the best intentions is simple not possible for a person to advocate for the user, the technology and the business at the same time
+We need to make sure `the people designing the products are not the same people building it`, even with the best intentions is simply not possible for a person to advocate for the user, the technology and the business at the same time
 
 ### Lack of design process
 

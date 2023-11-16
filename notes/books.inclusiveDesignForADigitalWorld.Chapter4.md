@@ -2,7 +2,7 @@
 id: i0ycg8x0f2todjxek7cbwny
 title: Chapter4
 desc: ''
-updated: 1668552869650
+updated: 1695944615670
 created: 1668550981992
 ---
 
@@ -19,7 +19,7 @@ Also known as POUR
 
 ## A step in the right direction
 
-In the past 15 yearns international goverments have developed legislations to ensure equal rights for people with disabilities, this legislations include equivalent access to electronic and information technology
+In the past 15 years international goverments have developed legislations to ensure equal rights for people with disabilities, this legislations include equivalent access to electronic and information technology
 
 Is a good practice to keep in mind the different regulations regarding this topic for the country or countries you are aiming your product to
 
@@ -59,3 +59,7 @@ Always take into account that Captioning is something many people cannot live wi
 
 #### Voice Recognition
 
+Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them. More specifically, people can:
+
+perceive, understand, navigate, and interact with the Web
+contribute to the Web
