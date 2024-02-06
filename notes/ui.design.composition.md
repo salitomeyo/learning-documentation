@@ -2,7 +2,7 @@
 id: srx1ezuylcepoc1n0d8bbk8
 title: Composition
 desc: ''
-updated: 1699570769271
+updated: 1700943086582
 created: 1688650010603
 ---
 
@@ -18,6 +18,8 @@ Compositions convey feelings is important to be able to express something even w
 
 2. **Create compositions** for different emotion words, try to convey that emotion just with squares
 
+![](/assets/images/UI/compositions-expression.png){max-width: 1000px}
+
 ## Balance
 
 Unbalanced things feel unnatural, think of a tree with all the branches in one side, **creating balance doesnt mean making things conservatory nor symmetrical** althought it could, a tree can have a big branch on one side and multiple small branches on the other side and be balanced. 
@@ -26,6 +28,8 @@ We can also use colors and darkness to create balance, something big with a dull
 
 1. **Create compositions** using shapes and darkness that feels balanced (without being symmetrical) 
 
+![](/assets/images/UI/compositions-balance.png){max-width: 1000px}
+
 ## Contrast
 
 There needs to be balance but to much balance might seem dull and boring, if you make a tree with exactly seven branches on each side on the exact same position with the exact same form it will feel unrealistic and boring. We need a reasonable amount of balance, and **a reasonable amount of contrast, some element of caos, this keeps the composition interesting and stimulates the brain**. 
@@ -33,6 +37,8 @@ There needs to be balance but to much balance might seem dull and boring, if you
 Shape, color and texture can be used to create contrast, but limit the attributes that you can change or the amount of element you can use, a lot of contrast can make things chaotic, or make it seem like the objects belong in completely different worlds
 
 1. **Create compositions** with some level of contrast, invent rules to keep a sense of conformity and avoid going too complex
+
+![](/assets/images/UI/compositions-contrast.png){max-width: 1000px}
 
 ## Forms
 
