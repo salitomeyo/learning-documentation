@@ -2,13 +2,13 @@
 id: 9hd0s7mwp6uwrp05db74ftn
 title: Promises
 desc: ''
-updated: 1660936570619
+updated: 1662728315280
 created: 1660925638869
 ---
 
 ## Callback
 
-Es un llamado a una funcion que permite manejar diferentes respuestas y errores
+Es simplemente una **funcion que se llama como argumento** y va a ser ejecutada posteriormente. Estos permite manejar diferentes respuestas y errores
 
 Era muy comun utilizarla antes de que se crearan las promesas pero ahora se considera una mala practica ya que facilmente puede provocar un callback hell
 
@@ -28,7 +28,7 @@ Las promesas tambien permiten manejar errores y respuestas, ademas tienen varias
 
 Recibe varias promesas y no ejecuta el codigo hasta que todas las promesas se hayan resuelto
 
-```cmd
+```javascript
 Promise.all([ promesa, promesa ]).then( arr => {
     console.log('promesas resueltas')
 })
@@ -36,7 +36,7 @@ Promise.all([ promesa, promesa ]).then( arr => {
 
 Adicionalmente podemos agregar un catch que se encargara de manejar cualquier tipo de error que resulte al llamar las promesas, si una promesa resulta en un error las demas promesas del promise.all ya no se ejecutaran
 
-```cmd
+```javascript
 Promise.all([ promesa, promesa ]).then( arr => {
     console.log('promesas resueltas');
 }).catch( err => {
@@ -46,7 +46,7 @@ Promise.all([ promesa, promesa ]).then( arr => {
 
 Finalmente podemos agregar un finally que se ejecutar al finalizar una promesa independientemente de si resulto en error o no
 
-```cmd
+```javascript
 Promise.all([ promesa, promesa ]).then( arr => {
     console.log('promesas resueltas');
 }).catch( err => {
@@ -60,7 +60,7 @@ Promise.all([ promesa, promesa ]).then( arr => {
 
 Solo ejecuta la promesa que se ejecute mas rapido, incluso si las promesas mas lentas resultan en error esto no va a activar el catch
 
-```cmd
+```javascript
 Promise.race([ promise, promise ])
 .then( console.log )
 .catch( console.warn );
@@ -73,7 +73,7 @@ Las funciones async await permiten manejar las promesas de una forma mas simple 
 
 * Sin usar async-await
 
-```cmd
+```javascript
 export const searchHero = ( id ) => {
     const hero = heroes[id];
 
@@ -88,7 +88,7 @@ export const searchHero = ( id ) => {
 ```
 
 * Usando async-await
-```cmd
+```javascript
 export const searchHeroAsync = async ( id ) => {
     const hero = heroes[id];
 
@@ -108,7 +108,7 @@ Como se puede ver no es necesario crear la nueva promesa para manejar el resolve
 
 Los bloques try catch permiten controlar errores, el codigo dentro del try se intentara ejecutar y si resulta en cualquier clase de error se ejecutara el codigo dentro del catch
 
-```cmd
+```javascript
 try{
     console.log('Do something');
 } catch ( err ) {

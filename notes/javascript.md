@@ -2,7 +2,7 @@
 id: 9nyv2jnm266u99zyw1vautw
 title: JavaScript
 desc: ''
-updated: 1660950382659
+updated: 1662728306000
 created: 1660598968195
 ---
 This page will contain al the concepts learnt while watching the [**JavaScript Moderno: Guía para dominar el lenguaje**](https://www.udemy.com/course/javascript-fernando-herrera/) *Udemy course*
@@ -98,7 +98,7 @@ Hay 3 clases de funciones que pueden en javascript:
 
 Todos los **`primitivos son pasados por valor`**, es decir la modificacion de uno no modificara el otro en ningun caso
 
-```cmd
+```javascript
 let a = 10, b = a;
 a = 30;
 
@@ -108,7 +108,7 @@ console.log({ a, b }) //30, 10
 
 Todos los **`objetos son pasados por referencia`**, es decir la modificacion de uno de ellos modifica a todos los que esten apuntando a este 
 
-```cmd
+```javascript
 let juan = { nombre: 'Juan' }, ana = juan;
 ana.nombre = 'Ana';
 
@@ -117,7 +117,7 @@ console.log({ juan, ana }) //{nombre: 'Ana'}, {nombre: 'Ana'}
 
 Para evitar pasar objetos a traves de referencias utilizamos la variable **spread**, esto rompe las referencias y pasa cada parametro por separado
 
-```cmd
+```javascript
 let juan = { nombre: 'Juan' }, ana = {...juan};
 ana.nombre = 'Ana';
 
@@ -134,7 +134,7 @@ La diferencia entre **==** y **===**
 
 * **==** significa que verifica los datos comparados sean iguales pero no importa el tipo de dato
 
-```cmd
+```javascript
 let a = 5;
 return a == '5'; //true
 return a == 5; //true
@@ -142,7 +142,7 @@ return a == 5; //true
 
 * **===** verifica que los datos comparados sean iguales y que su typeof tambien sea igual
 
-```cmd
+```javascript
 let a = 5;
 return a === '5'; //false
 return a === 5; //true
@@ -183,7 +183,7 @@ Solo se ejecutan hasta que se cumple la condicion o hasta donde se decida que es
 <summary><b>Por ejemplo</b></summary>
 <p>Supongamos que tenemos las siguientes funciones</p>
 
-```cmd
+```javascript
 const returnTrue = () => {
     console.log('true');
     return true;
@@ -197,7 +197,7 @@ const returnFalse = () => {
 
 * Si usamos un **&&** y una condicion es false ya no seguira ejecutando las demas condiciones, es decir:
 
-```cmd
+```javascript
 const a = returnFalse && returnTrue;
 ```
 
@@ -205,7 +205,7 @@ Solo imprimira por consola 'false' porque nunca llamara la funcion returnTrue
 
 * Si usamos un **||** y una condicion es true ya no seguira ejecutando las demas condiciones, es decir:
 
-```cmd
+```javascript
 const a = returnTrue || returnFalse;
 ```
 
@@ -219,7 +219,9 @@ Es una forma resumida de escribir un condicional if-else en una sola linea, esto
 
 La sintaxis del mismo es
 
-const variable = ( `condicion` ) ? [**true**]:[**false**];
+```javascript
+const variable = ( 'condicion' ) ? [**true**]:[**false**];
+```
 
 > const tipoDia = ( [0,6].includes(dia) ) ? 'Fin de semana' : 'Semana';
 
@@ -239,21 +241,21 @@ Hay 3 clases diferentes de ciclos for en Javascript
 ##### For 
 El for por defecto **utiliza un contador**, una restriccion para detenerse y un incrementador
 
-```cmd
+```javascript
 for(let i = 0; i <= 2; i++){}
 ```
 
 ##### For in
 El for in sirve para **recorrer listas** y arreglos **usando indices** del mismo
 
-```cmd
+```javascript
 for(let i in lista){ lista[i] }
 ```
 
 ##### For of
 El for of sirve para **recorrer listas** y arreglos pero en este caso **usando los elementos**
 
-```cmd
+```javascript
 for(let elemento of lista){ elemento }
 ```
 
@@ -263,7 +265,7 @@ Nos sirve para encapsular el codigo y protegerlo de forma que no quede todo defi
 
 Pueden ser definidas con funciones flecha
 
-```cmd
+```javascript
 (() => {
     ...codigo
 })();
@@ -271,7 +273,7 @@ Pueden ser definidas con funciones flecha
 
 O con funciones por defecto
 
-```cmd
+```javascript
 (function() {
     ...codigo
 })();
@@ -288,7 +290,7 @@ Las funciones anonimas pueden ser definidas de 2 formas
 
 * Funcion anonima comun
 
-```cmd
+```javascript
 () => {
     ...codigo
 };
@@ -296,7 +298,7 @@ Las funciones anonimas pueden ser definidas de 2 formas
 
 * Funcion anonima autoinvocada
 
-```cmd
+```javascript
 (() => {
     ...codigo
 })();
@@ -306,7 +308,7 @@ Las funciones anonimas pueden ser definidas de 2 formas
 
 Para usarlo basta con agregar **'use strict'** a la definicion de la funcion
 
-```cmd
+```javascript
 (() => {
     'use strict'
     ...codigo

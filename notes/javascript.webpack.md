@@ -2,13 +2,13 @@
 id: fqmgm6nkjwxsgwkfbjc3zmr
 title: Webpack
 desc: ''
-updated: 1660861323617
+updated: 1662728959574
 created: 1660850196290
 ---
 
 # NodeJs
 
-Permite correr codigo Javascript en el lado del servidor, tambien permite convertir nuestro pc en un servidor de desarrollo. Es decir permite crear un entorno de desarrollo local.
+Permite correr codigo Javascript en el lado del servidor, tambien permite convertir nuestro pc en un servidor de desarrollo. Es decir permite crear un entorno de desarrollo local. Hay informacion mucho mas completa sobre esto en las notas propias de node
 
 ## NPM
 
@@ -44,7 +44,7 @@ Webpack se instala en las devDependencies ya que no es necesario para produccion
 
 Al utilizar
 
-```cmd
+```bash
 webpack
 ```
 

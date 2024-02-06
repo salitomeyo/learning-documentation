@@ -1,10 +1,11 @@
 ---
-id: fqhkp30qbr1gzsfw6x6qthj
+id: pbvab1jyd8t72q1g3qjyj5t
 title: TypeScript
 desc: ''
-updated: 1661261244228
-created: 1660950593682
+updated: 1662728954344
+created: 1662153413873
 ---
+
 
 ## Typescript
 
@@ -25,7 +26,7 @@ Los **navegadores no entienden ni compilan en typescript, typescript es transpil
 
 Si typescript fue instalado de manera global basta con utilizar 
 
-```cmd
+```bash
 tsc
 ```
 
@@ -48,7 +49,7 @@ Cuando usamos constantes en typescript sin especificar el tipo de variable, type
 
 Es decir 
 
-```cmd
+```typescript
 const a = 10; //type 10
 const a: number = 10; //type number
 ```
@@ -67,13 +68,13 @@ Es un tipo de dato de typescript que se utiliza para las funciones que no tienen
 
 Por defecto typescript no permite asignar el valor undefined a una variable que no sea tipo undefined. Es decir
 
-```cmd
+```typescript
 let a: string = undefined; //no permitido
 ```
 
  esto se puede cambiar usando la regla `"strictNullChecks": false` dentro del tsconfig pero no es recomendado, se prefiere especificar la aceptacion de el undefined
 
- ```cmd
+ ```typescript
 let a: (string|undefined) = undefined; //permitido
 ```
 
@@ -121,7 +122,7 @@ Si queremos evitar que algun directorio genere estos archivos podemos agregarlo 
 
 Esta opcion debe estar por fuera del compilerOptions, es decir
 
-```cmd
+```typescript
 "compilerOptions": {
       //rules
     },
@@ -144,7 +145,7 @@ Para evitar generar un archivo de js para cada uno de los archivos .ts se debe a
 
 Si durante una consulta debemos extraer las propiedades de un objeto y pero este **objeto puede retornar undefined** basta con poner `?` antes de llamar a la propiedad, esto significa que solo ejecute el codigo de llamado a la propiedad si la respuesta es diferente de undefined
 
-```cmd
+```typescript
 return powers.find( power => power.id === this.powerId )?.description || 'Not found'
 ```
 
@@ -152,7 +153,7 @@ return powers.find( power => power.id === this.powerId )?.description || 'Not fo
 
 Si por el otro lado tenemos que una funcion puede **retornar undefined pero sabemos que nunca lo hara** y queremos **obligar al llamado de la propiedad** debemos usar `!` esto significa que ignore la advertencia del posible undefined y si o si llame la propiedad 
 
-```cmd
+```typescript
 return powers.find( power => power.id === this.powerId )!.description || 'Not found'
 ```
 
@@ -160,7 +161,7 @@ return powers.find( power => power.id === this.powerId )!.description || 'Not fo
 
 Las funciones genericas sirven para que el argumento defina su propio tipo independientemente de que argumento entre 
 
-```cmd
+```typescript
 function genericFunction<T>( argument: T ) {
     return argument;
 }
@@ -170,9 +171,11 @@ function genericFunction<T>( argument: T ) {
 
 Si estamos trabajando con peticiones http es comun mapear la respuesta como interface para poder acceder facilmente a sus atributos, pero en ocaciones la respuesta es muy grande y mapear esto a mano se hace tedioso por lo que utilizamos 
 
-[QuickType](https://quicktype.io/)
-[QuickType-VSCode](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
+* [QuickType](https://quicktype.io/)
+* [QuickType-VSCode](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
 
 ## Decoradores
 
 Son funciones que se ejecuta en tiempo de transpilacion, permite expandir la funcionalidad de un objeto
+
+

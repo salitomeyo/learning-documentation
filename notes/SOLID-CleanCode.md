@@ -2,7 +2,7 @@
 id: pci4rtrqkt6341a5sd8eez3
 title: SOLID-CleanCode
 desc: ''
-updated: 1660950191257
+updated: 1669133329878
 created: 1660332918216
 ---
 
@@ -12,7 +12,7 @@ This page will contain al the concepts learnt while watching the [**Principios S
 
 ### Deuda tecnica
 
-Significa falta de calidad em el codigo, lo que repercutira en costos futuros y requerira invertir tiempo extra en:
+Significa falta de calidad en el codigo, lo que repercutira en costos futuros y requerira invertir tiempo extra en:
 
 - Mantenimiento
 - Refactorizar codigo
@@ -74,11 +74,15 @@ Cada funcion realiza exactamente lo que indica su nombre
 * Para recordar sobre funciones: 
     * Se le llama parametros de la funcion a los atributos que recibe una funcion *(en la definicion de la misma)*
 
-    >function findBook(`bookName`: string)
+    ```javascript
+    function findBook(bookName: string)
+    ```
 
     * Se le llama argumentos de la funcion a los atributos que enviamos *(durante un llamado de la misma)*
 
-    >findBook(`'El principito'`)
+    ```javascript
+    findBook('El principito')
+    ```
 
 * Se recomienda limitar los parametros a 3, y ordenarlos de forma alfabetica
 
@@ -89,15 +93,19 @@ Cada funcion realiza exactamente lo que indica su nombre
 * Evitar el uso del else
 * Priorizar el uso de la condicional ternaria
 
->Ejemplo de condicional terciaria: return ( isRetired ) ? 3000 : 4000;
+>Ejemplo de condicional terciaria: 
+
+```javascript
+return ( isRetired ) ? 3000 : 4000;
+```
 
 #### Nombres de Clases
 
-- Nombres de clases deben ser sustantivos o frases de sustantivos *(Pero no deben ser muy genericos ni muy espeificos)*
+- Nombres de clases deben ser sustantivos o frases de sustantivos *(Pero no deben ser muy genericos ni muy especificos)*
 
 ### Principio DRY
 
-**`Dont Repeat Yourself`**
+**Dont Repeat Yourself**
 
 * Evita duplicidad
 * Simplifica pruebas
@@ -107,7 +115,7 @@ Cada funcion realiza exactamente lo que indica su nombre
 
 Deben seguir el **Principio de responsabilidad unica**
 
-Hay que tratar de evitar el uso de los extends (herencia), ya que el extends rompe el principio de resopnsabilidad unica
+Hay que tratar de evitar el uso de los extends (herencia), ya que el extends rompe el principio de responsabilidad unica
 
 Se debe **priorizar el uso de la composicion** sobre el uso de la herencia
 
@@ -127,7 +135,7 @@ Se deben conservar las recomendaciones del lenguaje usado pero en general se pue
 
 ### Clean Code - Comentarios
 
-`Los comentarios deberian ser la excepcion no la regla`
+**Los comentarios deberian ser la excepcion no la regla**
 
 Nuestro codigo deberia ser suficientemente auto explicativo
 
@@ -135,7 +143,7 @@ Nuestro codigo deberia ser suficientemente auto explicativo
 
 ### Clean Code - Uniformidad
 
-`Problemas similares deberian tener soluciones similares`
+**Problemas similares deberian tener soluciones similares**
 
 En estructura del codigo, en los nombres de variables y directorios, respetar la identacion
 
